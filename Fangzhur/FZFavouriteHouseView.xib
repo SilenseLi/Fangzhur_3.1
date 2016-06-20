@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="n8q-ph-zjF" customClass="FZFavouriteHouseView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="adImage1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ri3-q1-cOo">
+                    <rect key="frame" x="0.0" y="0.0" width="120" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="su9-Ve-aKM"/>
+                        <constraint firstAttribute="height" constant="80" id="v6n-C7-MRu"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="东南 约500米" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpr-e6-dCo">
+                    <rect key="frame" x="128" y="54" width="102" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="百子湾大成国际   1室1厅   整租   简装 " lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KD-PI-o5m">
+                    <rect key="frame" x="128" y="5" width="184" height="41"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1y-wL-hqr">
+                    <rect key="frame" x="224" y="54" width="88" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.90980392160000001" green="0.20392156859999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Zpr-e6-dCo" firstAttribute="leading" secondItem="n8q-ph-zjF" secondAttribute="leading" constant="128" id="DsN-MO-eaJ"/>
+                <constraint firstItem="4KD-PI-o5m" firstAttribute="leading" secondItem="Ri3-q1-cOo" secondAttribute="trailing" constant="8" id="KW8-LC-PeI"/>
+                <constraint firstAttribute="trailing" secondItem="4KD-PI-o5m" secondAttribute="trailing" constant="8" id="ahi-2Q-0Ja"/>
+                <constraint firstAttribute="trailing" secondItem="h1y-wL-hqr" secondAttribute="trailing" constant="8" id="k4k-Bo-5O7"/>
+                <constraint firstItem="Ri3-q1-cOo" firstAttribute="leading" secondItem="n8q-ph-zjF" secondAttribute="leading" id="lZv-6h-NlX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="houseImageView" destination="Ri3-q1-cOo" id="bfW-3y-WjF"/>
+                <outlet property="houseInfoLabel" destination="4KD-PI-o5m" id="UUi-IE-Toa"/>
+                <outlet property="houseLocationLabel" destination="Zpr-e6-dCo" id="2k3-uK-rbQ"/>
+                <outlet property="housePriceLabel" destination="h1y-wL-hqr" id="eOH-84-eDg"/>
+            </connections>
+            <point key="canvasLocation" x="595" y="443"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="adImage1.png" width="1242" height="930"/>
+    </resources>
+</document>

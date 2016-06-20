@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ServiceType</key>
+	<dict>
+		<key>1</key>
+		<string>房主儿网租赁代办服务</string>
+		<key>2</key>
+		<string>房主儿网过户代办服务</string>
+		<key>6</key>
+		<string>房主儿网贷款代办服务</string>
+		<key>7</key>
+		<string>房主儿网过户和贷款代办服务</string>
+	</dict>
+	<key>Rent</key>
+	<array>
+		<string>我们为您提供专业的业主资质和房产核验，签订规范的租赁协议，重点区域拍照留存，从而协助您避免可能出现的假房东、扣押金等行为，给您轻松安全的租房体验。</string>
+		<array>
+			<string>产权核验</string>
+			<string>租赁签约</string>
+			<string>房屋验收</string>
+			<string>见证服务</string>
+			<string>交房付款</string>
+		</array>
+		<array>
+			<string>租赁服务|600 元</string>
+		</array>
+	</array>
+	<key>Sale</key>
+	<array>
+		<string>我们根据您的交易类型提供全程标准化的二手房买卖服务，协助您完成相关资料的准备，过程中各环节要求的提醒，以及风险规避和资金使用解决方案，让交易专业清晰有保障。</string>
+		<array>
+			<string>买卖签约</string>
+			<string>资格审查</string>
+			<string>产权核验</string>
+			<string>房屋评估</string>
+			<string>网上签约</string>
+			<string>抵押登记</string>
+			<string>物业交割</string>
+			<string>办理过户</string>
+			<string>办理缴税</string>
+			<string>申请贷款</string>
+		</array>
+		<array>
+			<string>过户服务|5000 元</string>
+			<string>贷款服务|5000 元</string>
+			<string>过户+贷款|8000 元</string>
+		</array>
+	</array>
+</dict>
+</plist>

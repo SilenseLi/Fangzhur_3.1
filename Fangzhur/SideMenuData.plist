@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<array>
+		<string>消       息</string>
+		<string>邀请好友</string>
+		<string>个人收藏</string>
+		<string>4000-981-985</string>
+		<string>浏览记录</string>
+	</array>
+	<key>ImageName</key>
+	<array>
+		<string>xiaoxi_icon</string>
+		<string>yaoqing_icon</string>
+		<string>Favourite</string>
+		<string>dianhua_icon</string>
+		<string></string>
+	</array>
+	<key>ViewControllers</key>
+	<array>
+		<string>FZScanHousesViewController</string>
+		<string>FZReleaseListViewController</string>
+		<string>FZRSelfHelperViewController</string>
+		<string>FZShareViewController</string>
+		<string>FZCustomHouseViewController</string>
+		<string>GaoJiSearchViewController</string>
+		<string>FZChangeCityViewController</string>
+		<string>FZSettingViewController</string>
+	</array>
+</dict>
+</plist>

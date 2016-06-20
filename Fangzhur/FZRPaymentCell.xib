@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="5000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FZRPaymentCell" id="KGk-i7-Jjw" customClass="FZRPaymentCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="KuV-x2-qyr">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="239"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jcN-2x-B3J">
+                        <rect key="frame" x="10" y="5" width="300" height="148"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="您还需要支付" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="azP-tm-kPg">
+                                <rect key="frame" x="5" y="5" width="250" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="- 元" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7cy-uI-T8R">
+                                <rect key="frame" x="109" y="8" width="160" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="AlipayLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="eIS-CX-U2I">
+                                <rect key="frame" x="5" y="40" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="EKf-OS-KPM"/>
+                                    <constraint firstAttribute="height" constant="50" id="SIi-pT-X9E"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="snM-ke-v7z">
+                                <rect key="frame" x="5" y="40" width="295" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="0.0"/>
+                                <state key="normal" image="kuang_xuanzhong.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="支付宝支付" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RPK-3m-GCz">
+                                <rect key="frame" x="61" y="44" width="192" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="推荐已安装支付宝客户端的用户使用" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mg1-i0-ypg">
+                                <rect key="frame" x="61" y="65" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="snM-ke-v7z" firstAttribute="leading" secondItem="jcN-2x-B3J" secondAttribute="leading" constant="5" id="3OK-dc-Z9M"/>
+                            <constraint firstItem="eIS-CX-U2I" firstAttribute="leading" secondItem="jcN-2x-B3J" secondAttribute="leading" constant="5" id="RK5-6p-T34"/>
+                            <constraint firstItem="mg1-i0-ypg" firstAttribute="leading" secondItem="jcN-2x-B3J" secondAttribute="leading" constant="61" id="Rwu-ku-hnk"/>
+                            <constraint firstItem="7cy-uI-T8R" firstAttribute="leading" secondItem="jcN-2x-B3J" secondAttribute="leading" constant="109" id="c2Q-Oh-rnk"/>
+                            <constraint firstItem="RPK-3m-GCz" firstAttribute="leading" secondItem="jcN-2x-B3J" secondAttribute="leading" constant="61" id="iBm-gp-zXu"/>
+                            <constraint firstAttribute="trailing" secondItem="snM-ke-v7z" secondAttribute="trailing" id="twG-yj-KwM"/>
+                            <constraint firstItem="azP-tm-kPg" firstAttribute="leading" secondItem="jcN-2x-B3J" secondAttribute="leading" constant="5" id="vR5-WM-6jS"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bg-NS-4ZY">
+                        <rect key="frame" x="20" y="196" width="280" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="cBQ-lc-4qr"/>
+                        </constraints>
+                        <state key="normal" title="确认支付" backgroundImage="dibutiao_bg.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="3bg-NS-4ZY" secondAttribute="trailing" constant="20" id="0jR-1Z-E5e"/>
+                    <constraint firstItem="3bg-NS-4ZY" firstAttribute="leading" secondItem="KuV-x2-qyr" secondAttribute="leading" constant="20" id="bwt-La-Mob"/>
+                    <constraint firstAttribute="trailing" secondItem="jcN-2x-B3J" secondAttribute="trailing" constant="10" id="l8A-Kf-i7V"/>
+                    <constraint firstItem="jcN-2x-B3J" firstAttribute="leading" secondItem="KuV-x2-qyr" secondAttribute="leading" constant="10" id="pyY-72-gac"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="containerView" destination="jcN-2x-B3J" id="mTv-BX-6Fc"/>
+                <outlet property="methodButton" destination="snM-ke-v7z" id="dO6-EK-YFR"/>
+                <outlet property="paymentButton" destination="3bg-NS-4ZY" id="LyL-Dh-Yaf"/>
+                <outlet property="paymentLabel" destination="7cy-uI-T8R" id="3D4-iC-yiQ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AlipayLogo.png" width="128" height="128"/>
+        <image name="dibutiao_bg.png" width="320" height="49"/>
+        <image name="kuang_xuanzhong.png" width="21" height="20"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="5000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FZCertifyCell" id="KGk-i7-Jjw" customClass="FZCertifyCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="440"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="KDE-1m-zUv">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="439"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VyN-fw-ayh">
+                        <rect key="frame" x="0.0" y="23" width="320" height="190"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="moren_touxiang.png" translatesAutoresizingMaskIntoConstraints="NO" id="2rb-St-pLF">
+                                <rect key="frame" x="130" y="10" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="MOJ-ZD-R91"/>
+                                    <constraint firstAttribute="width" constant="60" id="mdC-l5-v3L"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="头像认证" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uoW-1B-llm">
+                                <rect key="frame" x="104" y="74" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="请上传真实、清晰的证明头像照片并且无水印、无凌乱背景。" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="305" translatesAutoresizingMaskIntoConstraints="NO" id="aXm-J1-PPJ">
+                                <rect key="frame" x="15" y="106" width="290" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75v-jl-ntK">
+                                <rect key="frame" x="60" y="150" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="上传头像" backgroundImage="kaishi_btn.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" title="已上传, 审核中..."/>
+                                <connections>
+                                    <action selector="uploadPicture:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="35y-aS-Dzh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="75v-jl-ntK" firstAttribute="leading" secondItem="VyN-fw-ayh" secondAttribute="leading" constant="60" id="PSP-Pk-VJH"/>
+                            <constraint firstAttribute="centerX" secondItem="2rb-St-pLF" secondAttribute="centerX" id="RJK-nP-HmZ"/>
+                            <constraint firstAttribute="centerX" secondItem="75v-jl-ntK" secondAttribute="centerX" id="ZM7-qO-ZTE"/>
+                            <constraint firstItem="aXm-J1-PPJ" firstAttribute="leading" secondItem="VyN-fw-ayh" secondAttribute="leading" constant="15" id="cUw-Cb-DTw"/>
+                            <constraint firstAttribute="trailing" secondItem="aXm-J1-PPJ" secondAttribute="trailing" constant="15" id="o4T-Hv-Vlh"/>
+                            <constraint firstAttribute="trailing" secondItem="75v-jl-ntK" secondAttribute="trailing" constant="60" id="sIe-bf-HxR"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UHx-ia-8cS">
+                        <rect key="frame" x="0.0" y="232" width="320" height="190"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="身份认证" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kPB-bT-UAe">
+                                <rect key="frame" x="104" y="74" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="请上传真实、清晰的身份证正面照片。" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="305" translatesAutoresizingMaskIntoConstraints="NO" id="nxs-MT-94T">
+                                <rect key="frame" x="15" y="105" width="290" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNO-gT-80e">
+                                <rect key="frame" x="60" y="150" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="上传身份证" backgroundImage="kaishi_btn.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" title="已上传, 审核中..."/>
+                                <connections>
+                                    <action selector="uploadPicture:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="s16-Uj-dPE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="kNO-gT-80e" secondAttribute="centerX" id="0yd-YZ-bsD"/>
+                            <constraint firstItem="nxs-MT-94T" firstAttribute="leading" secondItem="UHx-ia-8cS" secondAttribute="leading" constant="15" id="4Ap-Ih-iVY"/>
+                            <constraint firstAttribute="trailing" secondItem="kNO-gT-80e" secondAttribute="trailing" constant="60" id="KYq-yS-f2S"/>
+                            <constraint firstAttribute="trailing" secondItem="nxs-MT-94T" secondAttribute="trailing" constant="15" id="ThX-xe-MZb"/>
+                            <constraint firstItem="kNO-gT-80e" firstAttribute="leading" secondItem="UHx-ia-8cS" secondAttribute="leading" constant="60" id="hyI-OY-Iug"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="icon_shenfen.png" translatesAutoresizingMaskIntoConstraints="NO" id="JUr-Qw-AK4">
+                        <rect key="frame" x="128" y="252" width="65" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="2bo-0H-wyj"/>
+                            <constraint firstAttribute="width" constant="65" id="Vzp-x7-n6q"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="UHx-ia-8cS" firstAttribute="leading" secondItem="KDE-1m-zUv" secondAttribute="leading" id="3Va-lW-HnK"/>
+                    <constraint firstAttribute="trailing" secondItem="VyN-fw-ayh" secondAttribute="trailing" id="KHi-Or-GJ9"/>
+                    <constraint firstItem="VyN-fw-ayh" firstAttribute="leading" secondItem="KDE-1m-zUv" secondAttribute="leading" id="ZzN-0z-Gow"/>
+                    <constraint firstItem="VyN-fw-ayh" firstAttribute="centerX" secondItem="uoW-1B-llm" secondAttribute="centerX" id="biD-m2-fDi"/>
+                    <constraint firstItem="UHx-ia-8cS" firstAttribute="centerX" secondItem="kPB-bT-UAe" secondAttribute="centerX" id="ifs-DC-DFJ"/>
+                    <constraint firstAttribute="trailing" secondItem="UHx-ia-8cS" secondAttribute="trailing" id="yst-R1-8gf"/>
+                    <constraint firstAttribute="centerX" secondItem="JUr-Qw-AK4" secondAttribute="centerX" id="zAh-Re-j1R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="headButton" destination="75v-jl-ntK" id="0XL-LW-lrf"/>
+                <outlet property="headImageView" destination="2rb-St-pLF" id="5cv-YB-lRf"/>
+                <outlet property="identityButton" destination="kNO-gT-80e" id="RG1-gu-f7z"/>
+                <outlet property="identityImageView" destination="JUr-Qw-AK4" id="evl-0m-QPo"/>
+            </connections>
+            <point key="canvasLocation" x="314" y="244"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_shenfen.png" width="66" height="51"/>
+        <image name="kaishi_btn.png" width="216" height="35"/>
+        <image name="moren_touxiang.png" width="84" height="83"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

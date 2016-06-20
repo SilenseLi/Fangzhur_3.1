@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FZHouseDescriptionCell" id="KGk-i7-Jjw" customClass="FZHouseDescriptionCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="房屋描述" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpw-P8-z1m">
+                        <rect key="frame" x="0.0" y="15" width="320" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pt5-2f-ERB">
+                        <rect key="frame" x="15" y="46" width="290" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lsx-3m-ltI">
+                        <rect key="frame" x="0.0" y="82" width="320" height="70"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="面   积：60平米" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHs-R5-FzA">
+                                <rect key="frame" x="165" y="15" width="125" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="人   数：2人" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fd-K6-OWw">
+                                <rect key="frame" x="30" y="44" width="125" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="朝   向：北" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNH-s3-bAt">
+                                <rect key="frame" x="165" y="44" width="125" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="dibian.png" translatesAutoresizingMaskIntoConstraints="NO" id="uig-K6-V6v">
+                                <rect key="frame" x="15" y="0.0" width="290" height="1"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="层   高：10/20" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDD-JX-GBA">
+                                <rect key="frame" x="30" y="15" width="125" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HHs-R5-FzA" secondAttribute="trailing" constant="30" id="7ad-86-T0S"/>
+                            <constraint firstAttribute="trailing" secondItem="uig-K6-V6v" secondAttribute="trailing" constant="15" id="Kez-7H-q61"/>
+                            <constraint firstItem="2Fd-K6-OWw" firstAttribute="leading" secondItem="lsx-3m-ltI" secondAttribute="leading" constant="30" id="aza-gi-AhQ"/>
+                            <constraint firstItem="uig-K6-V6v" firstAttribute="leading" secondItem="lsx-3m-ltI" secondAttribute="leading" constant="15" id="bnx-0F-mBs"/>
+                            <constraint firstItem="pDD-JX-GBA" firstAttribute="leading" secondItem="lsx-3m-ltI" secondAttribute="leading" constant="30" id="cpk-11-CZK"/>
+                            <constraint firstAttribute="trailing" secondItem="zNH-s3-bAt" secondAttribute="trailing" constant="30" id="gZ7-ug-KUg"/>
+                        </constraints>
+                    </view>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="dibian.png" translatesAutoresizingMaskIntoConstraints="NO" id="iLR-Xz-Jl3">
+                        <rect key="frame" x="15" y="158" width="290" height="1"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="Bpw-P8-z1m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2NT-jz-1a6"/>
+                    <constraint firstAttribute="trailing" secondItem="Bpw-P8-z1m" secondAttribute="trailing" id="3Qz-Av-mdF"/>
+                    <constraint firstItem="lsx-3m-ltI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="48Z-Xb-aWu"/>
+                    <constraint firstAttribute="trailing" secondItem="lsx-3m-ltI" secondAttribute="trailing" id="5B0-RD-w1j"/>
+                    <constraint firstItem="iLR-Xz-Jl3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="69J-U6-xoX"/>
+                    <constraint firstItem="Pt5-2f-ERB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="9ym-2Y-ZWK"/>
+                    <constraint firstItem="lsx-3m-ltI" firstAttribute="top" secondItem="Pt5-2f-ERB" secondAttribute="bottom" constant="15" id="Myp-VT-gKr"/>
+                    <constraint firstAttribute="trailing" secondItem="Pt5-2f-ERB" secondAttribute="trailing" constant="15" id="Qb8-42-T8e"/>
+                    <constraint firstItem="Pt5-2f-ERB" firstAttribute="top" secondItem="Bpw-P8-z1m" secondAttribute="bottom" constant="10" id="mWR-2J-nfw"/>
+                    <constraint firstAttribute="trailing" secondItem="iLR-Xz-Jl3" secondAttribute="trailing" constant="15" id="roQ-1S-HHv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="BottomLine" destination="iLR-Xz-Jl3" id="ftq-vz-kbc"/>
+                <outlet property="descriptionLabel" destination="Pt5-2f-ERB" id="akz-tX-4vx"/>
+                <outlet property="directionLabel" destination="zNH-s3-bAt" id="Lq8-1p-Jhe"/>
+                <outlet property="floorLabel" destination="pDD-JX-GBA" id="8GV-I6-EQD"/>
+                <outlet property="infoView" destination="lsx-3m-ltI" id="q4d-OS-KXv"/>
+                <outlet property="peopleLabel" destination="2Fd-K6-OWw" id="7Js-ZX-LxY"/>
+                <outlet property="squareLabel" destination="HHs-R5-FzA" id="ibN-PX-axQ"/>
+            </connections>
+            <point key="canvasLocation" x="205" y="193"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dibian.png" width="290" height="1"/>
+    </resources>
+</document>

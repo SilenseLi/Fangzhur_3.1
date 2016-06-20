@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>house_toward</key>
+	<dict>
+		<key>0</key>
+		<string>未知</string>
+		<key>1</key>
+		<string>东</string>
+		<key>2</key>
+		<string>西</string>
+		<key>3</key>
+		<string>南</string>
+		<key>4</key>
+		<string>北</string>
+		<key>5</key>
+		<string>东南</string>
+		<key>6</key>
+		<string>西南</string>
+		<key>7</key>
+		<string>东北</string>
+		<key>8</key>
+		<string>西北</string>
+		<key>9</key>
+		<string>南北</string>
+		<key>10</key>
+		<string>东西</string>
+	</dict>
+	<key>house_type</key>
+	<dict>
+		<key>1</key>
+		<string>普通住宅</string>
+		<key>2</key>
+		<string>别墅</string>
+		<key>5</key>
+		<string>写字楼</string>
+		<key>7</key>
+		<string>商铺</string>
+		<key>10</key>
+		<string>公寓</string>
+		<key>11</key>
+		<string>四合院</string>
+		<key>13</key>
+		<string>商住</string>
+	</dict>
+</dict>
+</plist>

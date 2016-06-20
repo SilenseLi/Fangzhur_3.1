@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FZTagListCell" id="KGk-i7-Jjw" customClass="FZTagListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="221"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tp2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ml8-uf-BPm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50I-jy-vDq">
+                        <rect key="frame" x="0.0" y="75" width="320" height="70"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="28"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ml8-uf-BPm" secondAttribute="trailing" id="13q-f5-dRe"/>
+                    <constraint firstItem="ml8-uf-BPm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Nrz-vS-2MI"/>
+                    <constraint firstAttribute="centerY" secondItem="50I-jy-vDq" secondAttribute="centerY" id="R5V-hk-4Ju"/>
+                    <constraint firstItem="ml8-uf-BPm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="d38-Zp-BXl"/>
+                    <constraint firstAttribute="trailing" secondItem="50I-jy-vDq" secondAttribute="trailing" id="o9F-ET-gNN"/>
+                    <constraint firstAttribute="bottom" secondItem="ml8-uf-BPm" secondAttribute="bottom" id="pEB-Le-4D1"/>
+                    <constraint firstItem="50I-jy-vDq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vPA-Wy-80h"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="tagBgImageView" destination="ml8-uf-BPm" id="lfp-kp-q1v"/>
+                <outlet property="tagLabel" destination="50I-jy-vDq" id="Edp-dH-GMz"/>
+            </connections>
+            <point key="canvasLocation" x="552" y="401.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tp2.png" width="320" height="220"/>
+    </resources>
+</document>

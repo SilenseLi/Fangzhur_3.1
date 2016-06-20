@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FZStatementViewController">
+            <connections>
+                <outlet property="contentView" destination="ZTM-Oh-4S0" id="JYV-2Q-Yjl"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTM-Oh-4S0">
+                    <rect key="frame" x="0.0" y="64" width="320" height="1152"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">第一条
+房主儿网站独立拥有或与相关内容提供者共同拥有本网站内相关内容（包括但不限于文字、图片、及页面设计、编排、软件等）的版权和/或其他相关知识产权。本网站所有内容，凡注明“来源房主儿网站”的所有文字、图片，版权均属房主儿网站所有，除非中国法律另有规定，任何媒体、网站或个人未经本网站授权不得转载、链接、转贴或以其他方式复制发布。已由本网站授权的媒体、网站，在下载使用时必须注明稿件来源为房主儿网站，违者本网站将依法追究其法律责任。
+
+第二条
+房主儿网站对已注明来源的文章或图片等稿件进行转载是出于传递更多信息之目的，并不意味着赞同其观点或证实其内容的真实性。
+
+第三条
+转载或引用房主儿网站网内容必须是以新闻性或资料性公共免费信息为使用目的的合理、善意引用，不得对本网站内容原意进行曲解、修改。
+
+第四条
+转载或引用房主儿网站内容不得进行如下活动：
+a. 损害本网站或他人利益；
+b. 任何违法行为；
+c. 任何可能破坏公秩良俗的行为；
+d. 擅自同意他人继续转载、引用本网站内容。
+
+第五条
+转载或引用本网站版权所有之内容须注明“转自房主儿网站”字样，并标明本网站网址www.fangzhur.com 。
+ 
+第六条
+转载或引用房主儿网站中的署名文章，请按规定向作者支付稿酬。
+ 
+第七条
+对于不当转载或引用房主儿网站内容而引起的民事纷争、行政处理或其他损失，本网站不承担责任。
+
+第八条
+除注明来源为房主儿网站的内容外，本网以下内容亦不可任意转载：
+a.本网所指向的非本网站内容的相关链接内容；
+b.已作出不得转载或未经许可不得转载声明的内容；
+c.未由本网站署名或本网站引用、转载的他人作品等非本网站版权内容；
+d.本网站中特有的图形、标志、页面风格、编排方式、程序等；
+e.本网站中必须具有特别授权或具有注册用户资格方可知晓的内容；
+f.其他法律不允许或本网站认为不适合转载的内容。
+
+第九条
+“www.fangzhur.com”、“房主儿”和房主儿LOGO商标或标识都是房主儿网站的商品及服务商标和商号。未获得房主儿网站或其他在本网站上有权使用商标的第三方的书面同意下不得使用。 本网站所提到的真实的公司和产品的名称可能是其各自所有者的商标。
+
+第十条
+对不遵守本声明或其他违法、恶意使用房主儿网站内容者，本网站保留追究其法律责任的权利。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZTM-Oh-4S0" secondAttribute="trailing" id="OSa-0M-wRf"/>
+                <constraint firstAttribute="bottom" secondItem="ZTM-Oh-4S0" secondAttribute="bottom" id="adz-TM-RYf"/>
+                <constraint firstItem="ZTM-Oh-4S0" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="cCx-DN-fuM"/>
+                <constraint firstItem="ZTM-Oh-4S0" firstAttribute="top" secondItem="1" secondAttribute="top" constant="64" id="mfm-ym-P1d"/>
+            </constraints>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

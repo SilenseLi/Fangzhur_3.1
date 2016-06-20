@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>我的账户</string>
+		<string>我的订单</string>
+	</array>
+	<array>
+		<string>房源管理</string>
+	</array>
+	<array>
+		<string>修改资料</string>
+		<string>资料认证</string>
+	</array>
+	<array>
+		<string>FZAccountViewController</string>
+		<string>FZOrdersViewController</string>
+	</array>
+	<array>
+		<string>FZManagementViewController</string>
+	</array>
+	<array>
+		<string>FZUpdateInfoViewController</string>
+		<string>FZCheckInfomationViewController</string>
+	</array>
+</array>
+</plist>

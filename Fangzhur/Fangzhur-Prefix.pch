@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+//Pods的头文件不能在此导入?  ---》找不到?
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AppMacro.h"
+    #import "UtilsMacro.h"
+    #import "ZCReadFileMethods.h"
+    #import "FZRequestManager.h"
+    #import "JDStatusBarNotification.h"
+    #import "EGOCache.h"
+    #import "FZWaitingView.h"
+    #import "FZGuideView.h"
+    #import "FZGuideView.h"
+#endif

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FZMessageListCell" id="KGk-i7-Jjw" customClass="FZMessageListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="moren_touxiang.png" translatesAutoresizingMaskIntoConstraints="NO" id="NbS-do-DAF">
+                        <rect key="frame" x="15" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Crw-jZ-CMh"/>
+                            <constraint firstAttribute="height" constant="50" id="J9f-Tc-vF7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LwH-6c-tfb">
+                        <rect key="frame" x="73" y="12" width="115" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="2014-11-11 09:21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBD-Ft-P68">
+                        <rect key="frame" x="196" y="12" width="109" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Content" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPD-6E-2eQ">
+                        <rect key="frame" x="73" y="40" width="201" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="99+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lg-D5-r7j">
+                        <rect key="frame" x="283" y="40" width="22" height="22"/>
+                        <color key="backgroundColor" red="0.90980398654937744" green="0.20392158627510071" blue="0.27843138575553894" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="EU0-O8-MuP"/>
+                            <constraint firstAttribute="height" constant="22" id="FnM-uS-CqW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="dibian.png" translatesAutoresizingMaskIntoConstraints="NO" id="GqX-u4-aAn">
+                        <rect key="frame" x="15" y="68" width="290" height="1"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="WPD-6E-2eQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="73" id="76Y-yw-s6C"/>
+                    <constraint firstAttribute="trailing" secondItem="KBD-Ft-P68" secondAttribute="trailing" constant="15" id="L0B-rV-4bf"/>
+                    <constraint firstAttribute="trailing" secondItem="WPD-6E-2eQ" secondAttribute="trailing" constant="46" id="Ocq-pN-0nP"/>
+                    <constraint firstAttribute="trailing" secondItem="GqX-u4-aAn" secondAttribute="trailing" constant="15" id="ZeZ-Ez-2C1"/>
+                    <constraint firstItem="NbS-do-DAF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="dVz-vz-SO3"/>
+                    <constraint firstItem="GqX-u4-aAn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="q3A-qV-1DS"/>
+                    <constraint firstAttribute="trailing" secondItem="9lg-D5-r7j" secondAttribute="trailing" constant="15" id="r9B-dV-SSC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="badgeLabel" destination="9lg-D5-r7j" id="132-nf-DW6"/>
+                <outlet property="contentLabel" destination="WPD-6E-2eQ" id="She-Se-KfW"/>
+                <outlet property="dateLabel" destination="KBD-Ft-P68" id="iDe-8B-0Uo"/>
+                <outlet property="headerImageView" destination="NbS-do-DAF" id="Wd3-ud-Phe"/>
+                <outlet property="nameLabel" destination="LwH-6c-tfb" id="ss6-lw-41Q"/>
+            </connections>
+            <point key="canvasLocation" x="505" y="155"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dibian.png" width="290" height="1"/>
+        <image name="moren_touxiang.png" width="84" height="83"/>
+    </resources>
+</document>
